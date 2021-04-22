@@ -3,12 +3,12 @@ entries:
   test-helmchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-22T08:02:20.677453797Z"
+    created: "2021-04-22T10:58:46.03883289Z"
     description: A Helm chart for Kubernetes
-    digest: 12623e8c4bc2642a113602fdbefb74a720ae0edf5566ac9c9f9ff8843f573077
+    digest: 651b909d08b7651ace46d96dad9a4bd083908c9a91c8c56541c68cc9b41c44ee
     name: test-helmchart
     type: application
     urls:
     - test-helmchart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-22T08:02:20.675783759Z"
+generated: "2021-04-22T10:58:46.033045913Z"

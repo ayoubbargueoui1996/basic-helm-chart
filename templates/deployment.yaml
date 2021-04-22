@@ -1,20 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntu
-  labels: 
-    app: ubuntu    
+  name: basic-knf-superg
   annotations:
     k8s.v1.cni.cncf.io/networks: '[
       {
          "name" : "macvlan-conf",
          "interface" : "eth1",
-         "ips" : ["172.20.10.134"]
+         "ips" : ["10.0.0.127"]
       }]'
 spec:
   containers:
-  - name: ubuntu
-    image: ubuntu:bionic
-    command: ["/bin/sleep", "3650d"]
-    imagePullPolicy: IfNotPresent
-  restartPolicy: Always
+  - name: samplepod
+    image: cirros
